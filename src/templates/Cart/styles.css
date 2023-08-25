@@ -1,0 +1,308 @@
+/* Temp. Remove Pricehold */
+.cart-page.chekout.two-column .modified-cart .pricing-lock {
+    display: none;
+}
+
+/* Al Updates */
+    a.remove-item {
+        margin-left: 0;
+    }
+    /* Add a border to login section in Cart - https://www.providentmetals.com/cart-login/*/
+    body.cart-login.PWAMP .cart-page.two-column.chekout > .container .cart-section-right {
+        border-top: 1px solid #ccc;
+    }
+    form#jm_cart_login {
+        border-top: 1px solid #cccccc;
+    }
+    .cart .payment-method.choose .checkout {
+        padding-top: 15px;
+    }
+/* End AL Updates */
+.googlepay-button, .googlepay_area {
+    margin: 0 auto;
+}
+
+
+/*provident styles 10/3/2019 mw*/
+
+#wm_body .payment-selector{
+    width: 100%;
+}
+#wm_body .payment-selector select{
+    padding: 0 40px 0 10px;
+}
+#wm_body .payment-selector select optgroup {
+    display: none;
+}
+#wm_body #minicarttop{
+    float: none;
+    margin: 10px 0;
+}
+#wm_body .cart-payment-page .payment-area, 
+#wm_body .order-pages.thank-you .payment-area{
+    width: 100%;
+    max-width: 100%;
+    float: none;
+    margin: 0;
+    padding: 1px 10px;
+    overflow: auto;
+}
+/*[data-toggle="popover"]{
+    position: relative;
+}
+[data-toggle="popover"]:hover::after{
+    content: attr(data-content);
+    position: fixed;
+    left: 10px;
+    border-radius: 5px;
+    right: 10px;
+    background: #fff;
+    font-weight: normal;
+    font-family: montserrat,helvetica neue,Helvetica,Arial,sans-serif;
+    padding: 10px;
+    z-index: 99;
+    box-shadow: 0 0 10px rgba(00,0,0,.2);
+}
+*/
+#wm_body .product_tbl tbody tr:first-child{
+    display: none;
+}
+#wm_body .product_tbl .cart_table_item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#wm_body .product_tbl .cart_table_item td{
+    width: 50%;
+    flex-grow: 1;
+    padding: 5px 0;
+}
+#wm_body .product_tbl .cart_table_item .cart-title{
+    max-width: 75px;
+}
+#wm_body .product_tbl .cart_table_item .product-subtotal {
+    max-width: 100px;
+    font-weight: bold;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}   
+#wm_body .product_tbl .cart_table_item .cart-price{
+    width: 100%;
+}
+#wm_body .product_tbl .price-each{
+    padding: 3px 3px 3px 10px;
+    font-size: 16px;
+    border-bottom: 1px dashed #eee;
+}
+#wm_body .product_tbl .price-each:last-child{
+    border: none;
+}
+#wm_body .product_tbl .price-each button{
+    height: 26px;
+    pointer-events: none;
+}
+.cart-qty div {
+    display: flex;
+    align-items: center;
+    order: 0;
+}
+.cart_table_item .add-to-cart + div {
+    margin-left: 10px;
+    order: 1;
+}
+.cart_table_item .add-to-cart{
+    order: 2;
+}
+#wm_body .product_tbl .butn_reload {
+    color: inherit;
+    font-weight: normal;
+    box-shadow: none;
+    font-size: 13px!important;
+    width: auto;
+    padding: 5px;
+}
+
+.add-to-cart .qtyplus,
+.add-to-cart .qtyminus {
+    height: 23px;
+    max-height: 23px;
+    min-height: 0px;
+    border-radius: 0;
+    padding: 0px;
+}
+.add-to-cart .qtyplus {
+    border-top-right-radius: 4px;
+}
+.add-to-cart .qtyminus {
+    border-bottom-right-radius: 4px;
+}
+
+#payment_picked i {
+    margin-right: 20px;
+}
+
+
+#wm_contentarea .table>thead>tr>th,
+#wm_contentarea .table>tbody>tr>th,
+#wm_contentarea .table>tfoot>tr>th,
+#wm_contentarea .table>thead>tr>td,
+#wm_contentarea .table>tbody>tr>td,
+#wm_contentarea .table>tfoot>tr>td {
+    border: none;
+}
+
+.product_tbl tr.table-checkout-bottom {
+    border-bottom: none;
+}
+
+div#cartcoup {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    float: none;
+}
+
+div#cartcoup button,
+div#cartcoup input {
+    float: none;
+    width: calc(50% - 4px);
+    margin: 0;
+    flex-grow: unset;
+}
+
+div#checkout_area {
+    float: none;
+    width: 100%;
+}
+
+
+
+body.cart-login.PWAMP #wm_contentarea {
+    padding-top: 50px;
+}
+
+body.cart-login.PWAMP .cart-page.two-column.chekout > .container,
+body.cart-login.PWAMP .cart-page.two-column.chekout > .container .cart-section,
+body.cart-login.PWAMP .cart-page.two-column.chekout > .container .cart-section-top,
+body.cart-login.PWAMP .cart-page.two-column.chekout > .container .cart-section-left,
+body.cart-login.PWAMP .cart-page.two-column.chekout > .container .cart-section-right, 
+body.cart-login.PWAMP .cart-page.two-column.chekout > .container #order_review {
+    width: 100%;
+    padding: 0;
+    border: none;
+    float: none;
+}
+body.cart-login.PWAMP .cart-page.two-column.chekout > .container .cart-section-right {
+    margin-top: 20px;
+}
+body.cart-login.PWAMP .cart-page.two-column.chekout > .container,
+body.cart-login.PWAMP .cart-page.two-column.chekout > .container .cart-section-top {
+    display: flex;
+    flex-direction: column;
+}
+
+body.cart-login.PWAMP .cart-page.two-column.chekout > .container #order_review .cartSummaryTableWrapper {
+    overflow: auto;
+}
+body.cart-login.PWAMP .cart-page.two-column.chekout > .container #order_review table.data-table {
+    display: table;
+}
+body.cart-login.PWAMP .cart-page.two-column.chekout > .container #order_review table.data-table thead {
+    display: table-header-group;
+}
+body.cart-login.PWAMP .cart-page.two-column.chekout > .container #order_review table.data-table th {
+    display: table-cell;
+}
+body.cart-login.PWAMP .cart-page.two-column.chekout > .container #order_review table.data-table tbody {
+    display: table-row-group;
+}
+body.cart-login.PWAMP .cart-page.two-column.chekout > .container #order_review table.data-table tr {
+    display: table-row;
+}
+body.cart-login.PWAMP .cart-page.two-column.chekout > .container #order_review table.data-table td {
+    display: table-cell;
+}
+
+/* Changes cart for new update -JG 2/18/21 */
+.productDescContainer .product-desc {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding: 5px;
+}
+.cart_table_item .add-to-cart {
+    margin-right: 25px;
+    width: 75px;
+}
+.removeItemContainer {
+    width: 45px;
+    text-align: center;
+}
+#wm_body .product_tbl .cart-qty {
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row-reverse;
+    padding-left: 10px;
+    height: 54px;
+}
+.removeItemContainer .remove-item {
+    font-size: 25px;
+    color: #444;
+    padding: 5px 13px;
+}
+.removeItemContainer i {
+    display: none;
+}
+/* hides text that displays if no method chosen as per ticket request, will hide price too if done otherwise */
+.hide_method_text {
+    display: none;   
+}
+.fa-check {
+    width: 30px;
+    height: 30px;
+}
+
+/*Most Wishlist Carousel Css is in ultraSliderAfter*/ 
+form#cart-frm {            
+    margin: 0 0 30px 0;            
+}
+table.data-table.table.table-striped.table-condensed.product_tbl.blocked {
+    margin-bottom: 0px !important;
+}
+.wishlist-area{            
+    margin: 30px 0 0 0;                
+    line-height: 0px;            
+}
+.wishlist-area h3 {            
+    font: 700 24px Open Sans;  
+    margin: 30px 0 5px 0;
+}            
+.wishlist-slider-inner{            
+    display: inline-flex;            
+}            
+.wishlist-slider-inner .wish-item {            
+    text-align: center;            
+    min-width: calc(50vw - 40px) !important;            
+    width: calc(50% - 40px) !important;            
+    vertical-align: text-top;            
+    margin: 5px 14px 0 8px;
+    padding-right: 0px !important;
+    margin-inline-start: 3px;            
+    display: inline-block;            
+    font-size: 16px;            
+    white-space: normal;            
+} 
+
+/* Spacing fix for svg */
+.payment-selector i svg {
+    margin-top: 3px;
+    color: #ffffff;
+    top: 10px;
+    transform: rotate(180deg);
+}
+
+.fa-chevron-up::before,
+.fa-sync::before,

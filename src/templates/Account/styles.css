@@ -1,0 +1,1000 @@
+/* JGW note - 
+    page-specific classes can be inferred from top level class selector:
+    /customer/payment-methods/new/ => body.customer.payment-methods.new 
+*/
+
+/*Buy again feature JD 5.12.2021*/
+a.buy-again.buy-again-clickable {
+    display: none;
+}
+#my-account-order-table #my-orders-table thead tr th:last-child{
+    display: none;
+}
+#my-account-order-table #my-orders-table tr td:last-child {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: white !important;
+}
+#my-account-order-table #my-orders-table tr{
+    display: block;
+}
+#my-account-order-table #my-orders-table thead {
+    display: block;
+}
+#my-account-order-table #my-orders-table>thead>tr>th {
+    border-bottom: none !important; 
+}
+#my-account-order-table #my-orders-table tr td:nth-child(1), #my-account-order-table tr td:nth-child(2), #my-account-order-table tr td:nth-child(3), #my-account-order-table tr td:nth-child(4), #my-account-order-table tr td:nth-child(5) {
+    background-color: #f9f9f9 !important;
+    width: 20%;
+}
+#my-account-order-table #my-orders-table th:nth-child(1), #my-account-order-table th:nth-child(2), #my-account-order-table th:nth-child(3), #my-account-order-table th:nth-child(4), #my-account-order-table th:nth-child(5) {
+    width: 20%;
+}
+.my-account .panel .panel-body {
+    padding: 5px !important;
+}
+.my-account #my-account-order-table{
+    overflow-y: auto;
+}
+#wm_contentarea .basic-page-heading h2 {
+    padding: 10px 0;
+    font-size: 22px;
+}
+
+/* Wishlist Styling -JD 4/22/21 */
+
+.jmb-wishlist-items{
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+.jmb-wishlist-items .fluid.tab-cols {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1%;
+    width: 47%;
+    min-width: 47%;
+    padding: 10px 10px 20px;
+    min-height: 400px;
+}
+
+.jmb-wishlist-items .button.woocommerce_waitlist {
+    width: 140px !important;   
+}
+
+#wm_contentarea .jmb-wishlist-items > .tab-cols .section-jmb-wishlist {
+    bottom: 10px;
+}
+
+.tab-cols .add-to-cart,  .add.main-btn.stock-alert-btn {
+    width: 90% !important;
+}
+
+.jmb-wishlist.remove {
+    font-size: 10px;
+    color: black !important;
+}
+.section-jmb-wishlist .jmb-wishlist.remove svg {                        
+    margin: 0px 2px;                        
+    color: #0D7487;;            
+}                        
+.section-jmb-wishlist .jmb-wishlist.remove:before {                        
+    content: none !important;                        
+}
+.add.main-btn.stock-alert-btn.risa span {
+    font-size: 10px;
+}
+
+.addToCart {
+    min-width: 140px;
+}
+.tab-content .tab > .tab-cols .add-to-cart input, .jmb-wishlist-items > .tab-cols .add-to-cart input {            
+    display: none;               
+}   
+/*main nav tabs*/
+#wm_contentarea .payment-page .payment-section ul.tabs{
+    float: none;
+    display: flex;
+    flex-wrap: wrap;
+    background: none;
+}
+#wm_contentarea .payment-page .payment-section ul.tabs li{
+    width: 31%;
+    height: auto;
+    border: 1px solid #ddd;
+    background: #f7f7f7;
+    color: #555;
+    margin: 1.1515%;
+    padding: 4vw 0;
+}
+#wm_contentarea .payment-page .payment-section ul.tabs li.current {
+    background: #114e88;
+    color: #fff;
+    border: 1px solid #114688;
+}
+#wm_contentarea .payment-page .payment-section ul.tabs li span{
+    padding: 0;
+    background: none;
+    font-size: 13px;
+    display: block;
+    margin-left: 50%;
+    width: 30vw;
+    transform: translateX(-50%);
+}
+#wm_contentarea .payment-page .payment-section ul.tabs li i {
+    display: block;
+    margin: 0 auto 10px;
+    font-size: 40px!important;
+    height: 40px;
+    width: auto;
+    padding: 0;
+}
+
+/* https://qa.providentmetals.com/customer/address/ */
+#wm_contentarea .main-btn {
+    height: initial;
+    min-height: 33px;
+}
+
+
+/* Account SubNavigation */
+/* https://qa.providentmetals.com/customer/account/ */
+#wm_contentarea .sidebar {
+    float: none;
+}
+#wm_contentarea .sidebar .block-account li span {
+    margin-right: 10px;
+    padding: 0;
+}
+
+/* Reviews Page 
+    https://qa.providentmetals.com/customer/reviews/ */
+.PWAMP.reviews {
+    text-align: left;
+}
+
+
+/*Order History*/
+
+/*Adjusted bank wire message per request ZD-2251*/
+.my-account .blank-wire {
+    width: 53% !important;
+    padding: 5px !important;
+}
+#wm_contentarea .buyback-heading {
+    padding-top: 1em;
+    clear: both;
+}
+#wm_contentarea .flextable thead th,
+.post-edit-link{
+    display: none;
+}
+#wm_contentarea .flextable tr{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    border: 1px solid #ddd;
+}
+#wm_contentarea .order-table thead tr{
+    margin: 0;
+    border: none;
+}
+#wm_contentarea .order-table thead th:first-child{
+    display: block;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-weight: bold;
+    line-height: 40px;
+    padding-left: 10px;
+    border-bottom: 1px solid #ccc;
+    color: black;
+}
+#wm_contentarea .order-table thead th:first-child::after{
+    content: 's';
+}
+#wm_contentarea .flextable tr td{
+    width: 50%;
+    text-align: left;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-size: 13px;
+    min-height: 0;
+}
+#wm_contentarea .orders-grid {
+    overflow-x: auto;
+    padding: 0;
+}
+#wm_contentarea .order-table tr td:last-child{
+    border: none;
+}
+#wm_contentarea .order-table tr td::before{
+    font-weight: bold;
+}
+#wm_contentarea .order-table tr a{
+    display: inline-block;
+}
+#wm_contentarea .order-table tr td:first-child::before{
+    content: 'Order: ';
+}
+#wm_contentarea .order-table tr td:nth-child(2)::before{
+    content: 'Date: ';
+}
+#wm_contentarea .order-table tr td:nth-child(3)::before{
+    content: 'Total: ';
+}
+#wm_contentarea .order-table tr td:nth-child(4)::before{
+    content: 'Status: ';
+}
+#wm_contentarea .order-table tr.action-history.activated td:first-child::before{
+    display: none;
+}
+#wm_contentarea .order-table tr.action-history.activated td:first-child{
+    font-weight: bold;
+}
+#wm_contentarea .order-table tr.action-history.activated td:nth-child(4)::before{
+    content: 'For: ';
+}
+.order-actions>span{
+    display: inline-block;
+    background: #ddd;
+    padding: 5px 15px;
+    border-radius: 3px;
+    color: #7b7b7b;
+}
+.order-actions .main-btn {
+    background: #eee;
+    border: 1px solid #999;
+    color: #333;
+    height: 30px;
+}
+#wm_contentarea .payment-section table tr.cancellation.activated{
+    background: #f3f3f3;
+    border: 2px solid #1e66a2;
+}
+#wm_contentarea .payment-section table tr.action-history.activated {
+    border: 2px solid #1e66a2;
+    margin-top: -12px;
+    border-top: none;
+    background: #fff;
+}
+
+/*My Information */
+#wm_contentarea .my-account-box{
+    padding: 15px 10px;
+}
+.my-account .table-responsive {
+    margin: 0;
+}
+#wm_contentarea .my-info.address .my-info .left-section, 
+#wm_contentarea .my-info.address .my-info .right-section{
+    float: none;
+    width: auto;
+    text-align: left;
+}
+#wm_contentarea .my-info.address .my-info .right-section li{
+    margin-top: 10px;
+}
+#wm_contentarea .new-input input,
+#wm_contentarea .new-input select{
+    margin-bottom: 12px;
+}
+#wm_contentarea .new-input{
+    padding: 0;
+    width: 100%;
+}
+#wm_contentarea  #updatemyacount, 
+#wm_contentarea #updatemypass,
+#wm_contentarea #cancelchange, #wm_contentarea #cancel-pwd-change, #wm_contentarea .canceladdress{
+    width: auto;
+    padding: 10px;
+}
+#wm_contentarea .panel-heading + .clearfix .col-xs-12:not(.orders-grid), #wm_contentarea .panel-heading + .clearfix .col-sm-6 {
+    padding: 15px !important;
+}
+
+#accountinfo::before,
+.address-area::before{
+    content: 'My Information';
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+    border-width: 1px 1px 0;
+}
+
+#wm_contentarea .my-info .right-section li {
+    float: left;
+}
+
+#edit-info button {
+    height: 50px;
+    padding: 0 20px;
+}
+#change-pwd button {
+    background: #eee;
+    border: 1px solid #999;
+    color: #333;
+    height: 50px;
+    margin-left: 10px;
+    padding: 0 20px;
+}
+
+/*addresses */
+.address-area::before{
+    content: 'Addressess';
+    margin: -16px -11px 15px;
+    border-bottom: 1px solid #ccc;
+}
+#wm_contentarea .address-area {
+    padding: 15px 10px;
+
+}
+#wm_contentarea .user-address .form{
+    position: relative;
+    bottom: auto;
+}
+#wm_contentarea .address-area .user-address .button-section.address{
+    margin: auto;
+    text-align: left;
+    
+}
+#wm_contentarea .address-area .user-address{
+    width: 100%;
+    height: auto;
+}
+#wm_contentarea .address-area .user-address.newaddr{
+    padding: 0;
+    text-align: left;
+}
+#wm_contentarea .newaddr{
+    border: none;
+    margin: 0;
+}
+#wm_contentarea .jm_shipp{
+    width: auto!important;
+}
+.customer.account .panel-heading a {
+    padding: 0;
+}
+.customer.account .panel-heading a[href="/customer/address/"] {
+    display: block;
+    float: right;
+}
+.customer.account .panel-heading a[href="/customer/payment-methods/"] {
+    display: block;
+    float: none!important;
+}
+#cc-list-table {
+    margin: 0;
+}
+#accounts-div button.main-btn.btn-login.col-xs-4 {
+    display: block;
+    width: auto;
+    width: -webkit-fill-available;
+    margin: 10px auto 0;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding: 0!important;
+}
+
+.button-section.save, #accountinfo .button-section {
+    display: flex;
+}
+
+/*stored payment options*/
+#wm_contentarea #cc-list-table thead,
+#wm_contentarea #cc-list-table td:first-child img,
+#wm_contentarea #cc-list-table td:first-child .label,
+#wm_contentarea #cc-list-table td:last-child .label,
+#wm_contentarea #account-list-table thead,
+#wm_contentarea #account-list-table td:first-child img,
+#wm_contentarea #account-list-table td:first-child .label,
+#wm_contentarea #account-list-table td:last-child .label {
+    display: none!important;
+}
+#wm_contentarea #cc-list-table .label, #wm_contentarea #account-list-table .label {
+    color: #444444;
+}
+.customer.payment-methods #wm_contentarea #cc-list-table thead {
+    display: table-header-group!important;
+    
+}
+
+#wm_contentarea #cc-list-table td,
+#wm_contentarea #account-list-table td {
+    padding: 5px;
+    border: none;
+}
+#wm_contentarea #cc-list-table tr,
+#wm_contentarea #account-list-table tr {
+    position: relative;
+}
+#wm_contentarea #cc-list-table td,
+#wm_contentarea #account-list-table td {
+    width: 100%;
+}
+#wm_contentarea #cc-list-table .label,
+#wm_contentarea #account-list-table .label {
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+#wm_contentarea #cc-list-table .label+*,
+#wm_contentarea #account-list-table .label+* {
+    display: inline-block;
+    vertical-align: middle;
+}
+#wm_contentarea #cc-list-table .label::after,
+#wm_contentarea #account-list-table .label::after {
+    content: ':';
+}
+#wm_contentarea #cc-list-table .my-card-num,
+#wm_contentarea #account-list-table .my-card-num{
+    font-weight: bold;
+    margin: 0;
+    font-size: inherit;
+}
+#wm_contentarea .new-credit .credit-card {
+    margin-bottom: 20px;
+}
+#wm_contentarea .new-credit .credit-card,
+#wm_contentarea .new-credit table {
+    float: none;
+}
+.new-credit h3{
+    background: #f7f7f7;
+    padding: 10px;
+    margin: 0!important;
+    border: 1px solid #ccc;
+    border-width: 1px 1px 0;
+}
+#wm_contentarea #cc-list-table a.delete-profile,
+#wm_contentarea #account-list-table a.delete-profile {
+    display: inline-block;
+    background: #f2f7fb;
+    color: #393939;
+    padding: 10px 20px;
+    border: solid 1px #9B9B9B;
+    border-radius: 3px;
+    font-weight: 600;
+    float: right;
+    margin-top: -40px;
+}
+/* Customer payment methods: Payment methods table - https://qa.providentmetals.com/customer/payment-methods/ */
+.customer.payment-methods #wm_contentarea #cc-list-table a.delete-card {
+    margin-top: 0;
+}
+.customer.payment-methods #wm_contentarea #cc-list-table .chk-area {
+    margin-top: -4px;
+    text-align: right;
+}
+/* Customer payment methods: Bank accounts table - https://qa.providentmetals.com/customer/payment-methods/ */
+.noItemsMsg {
+    padding: 0 10px;
+}
+
+#wm_contentarea #account-list-table a.verify-account {
+    float: right;
+    margin-top: -40px;
+}
+#wm_contentarea #account-list-table a.verify-account button {
+    padding: 10px 20px;
+    font-weight: 600;
+}
+#wm_contentarea #cc-message{
+    margin: 0;
+}
+#wm_contentarea #no-cc-record,
+#wm_contentarea #no-bank-record {
+    float: none;
+    margin: 0;
+    padding: 10px !important;
+    min-height: auto;
+    width: 100%;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+#wm_contentarea .show-new-cc-container {
+    text-align: center;
+}
+/* Customer payment methods: New Credit Card Form */
+.customer.payment-methods.new h1 {
+    padding: 0;
+}
+.customer.payment-methods.new .two {
+    margin-left: 0;
+}
+.customer.payment-methods.new .tool-tip.checkout.active {
+    max-width: 40vw;
+}
+.customer.payment-methods.new .tool-tip .cart-area>div {
+    float: initial;
+    margin: 0 auto;
+    text-align: center;
+    width: 113px;
+}
+.customer.payment-methods.new .button-section {
+    clear: both;
+}
+
+/*#wm_contentarea #new-cc-wrapper {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+#wm_contentarea #new-cc-wrapper h4 {
+    margin: 0 0 10px 0;
+}
+#wm_contentarea #new-cc-wrapper #new-cc-payment-form {
+    padding: 0;
+}
+#wm_contentarea #new-cc-wrapper #form_div * {
+    float: none !important;
+    margin-left: 0;
+    margin-right: 0;
+}
+#wm_contentarea #new-cc-payment-form>h4 {
+    margin-top: 15px;
+}
+#wm_contentarea #new-cc-wrapper #new-card {
+    padding: 0;
+}
+#wm_contentarea #new-cc-wrapper #ccv_block {
+    width: 100%;
+    margin-top: 10px;
+    display: inline-block;
+}
+#wm_contentarea #new-cc-wrapper #authorize-net-cim-cc-exp-month,
+#wm_contentarea #new-cc-wrapper #authorize-net-cim-cc-exp-year {
+    width: 49%;
+}
+#wm_contentarea #new-cc-wrapper .payment-period {
+    display: flex;
+    justify-content: space-between;
+}
+#wm_contentarea #new-cc-wrapper .tool-area {
+    display: inline-block;
+    position: static;
+}
+#wm_contentarea #new-cc-wrapper .new-input.tiny {
+    display: inline-block;
+}
+#wm_contentarea #new-cc-wrapper #new-card #ccv_block .new-input {
+    width: 50%;
+}
+#wm_contentarea #new-cc-wrapper #new-card .tool-tip.checkout.active {
+    left: 10px;
+    position: absolute;
+    top: 40px;
+    width: calc(100% - 20px);
+}
+#wm_contentarea #new-cc-wrapper .tool-tip.checkout:before {
+    display: none;
+}
+#wm_contentarea #new-cc-wrapper .tool-tip.checkout:after {
+    display: none;
+}
+#wm_contentarea #new-cc-wrapper .card-image {
+    float: left;
+    margin: 0;
+}
+#wm_contentarea #new-cc-wrapper .payment-section .credit-card img {
+    padding: 0;
+}
+#wm_contentarea #new-cc-wrapper .tool-tip .cart-area .card-image {
+    vertical-align: middle;
+    display: inline-block;
+}
+#wm_contentarea #new-cc-wrapper .tool-tip .cart-area .card-section {
+    display: inline-block;
+    vertical-align: middle;
+}
+#wm_contentarea #new-cc-wrapper .cart-area.first {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#wm_contentarea #new-cc-wrapper .card-section p {
+    vertical-align: middle;
+    display: inline-block;
+    margin: auto;
+}
+#wm_contentarea #new-cc-wrapper .cart-area {
+    display: flex;
+}
+#wm_contentarea #new-echeck .bank-checkout-block {
+    float: none;
+    width: 100%;
+    margin: 0 0 10px 0;
+    height: auto;
+}
+#wm_contentarea #new-echeck .bank-checkout-block button {
+    float: none;
+} */
+
+#bank-info-input {
+    left: 10px;
+    right: 10px;
+    width: calc(100% - 20px);
+}
+#bank-info-input .secure-section1 h4 {
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+#bank-info-input .secure-image {
+    display: none;
+}
+#bank-info-input .secure-section1 p {
+    display: inline-block;
+    width: calc(100% - 82px - 1em);
+    vertical-align: middle;
+}
+#bank-info-input .secure-section1 .norton-image {
+    display: inline-block;
+    width: 80px;
+    vertical-align: middle;
+}
+#secure-section {
+    padding-bottom: 10px;
+}
+#submit-bank-info {
+    margin-top: 15px;
+    height: 37px;
+    width: 200px;
+}
+#bank-info-input .modal-content {
+    margin-left: auto !important;
+    width: auto !important;
+    float: none;
+}
+#bank-info-input .modal-content>*,
+#bank-info-input #submit-bank-info {
+    float: none;
+}
+#bank-info-input #submit-bank-info {
+    height: 37px;
+}
+
+/* plaid add a bank account modal */
+.plaid-link-iframe {
+    margin-top: 50px;
+}
+
+/*alerts page */
+#wm_contentarea #nfalertportal iframe{
+    width: 286px!important;
+    margin: auto;
+}
+#wm_contentarea .waitlist-single-product {
+    width: calc(50% - 3px);
+    margin: 0 6px 10px 0;
+}
+#wm_contentarea .waitlist-single-product:nth-of-type(2n) {
+    margin-right: 0;
+}
+
+/*viewing an order*/
+#wm_contentarea .order-pages.thank-you .body .order-total {
+    margin-top: 0;
+}
+#wm_contentarea .order-pages.thank-you .body .order-total>div {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    float: none;
+}
+#wm_contentarea .order-pages.thank-you .body .order-total > div {
+    min-height: auto;
+}
+#wm_contentarea .order-pages.thank-you .status,
+#wm_contentarea .order-pages.thank-you .prepared.detail{
+    margin: 0;
+}
+
+#wm_contentarea .account-address {
+    padding: 10px;
+    float: none;
+}
+#wm_contentarea .address-left,
+#wm_contentarea .address-right {
+    width: auto;
+    float: none;
+}
+
+#wm_contentarea .order-steps,
+#wm_contentarea .print{
+    display: none;
+}
+#wm_contentarea .order-pages div.head {
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+#wm_contentarea .order-pages div.body {
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}
+#wm_contentarea .right-section.blank-wire * {
+    float: none;
+}
+
+#wm_contentarea .order-detail div.body {
+    margin-top: 0;
+}
+#wm_contentarea .order-detail div.head {
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+    background: #e7eaed;
+    font-size: 14px;
+}
+#wm_contentarea .order-detail div.head h4 {
+    font-size: 14px;
+}
+.prepared-area::after,
+.view-order .order-detail tr::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#wm_contentarea .order-pages.thank-you .prepared.detail {
+    padding: 10px;
+    background: #f9f9f9;
+}
+#wm_contentarea .order-pages.thank-you .prepared.detail .method-section {
+    background: none;
+    border: none;
+    padding: 0;
+}
+#wm_contentarea .order-pages.thank-you .prepared.detail .method-section>div {
+    float: none;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+#wm_contentarea .order-pages.thank-you .prepared.detail .method-section > div:last-child {
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.prepared-area:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.view-order #wm_contentarea .order-detail {
+    clear: both;
+    padding-top: 0;
+}
+.womp-product-container {
+    display: flex;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.womp-product-container:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+.womp-product-container .product-img {
+    min-width: 100px;
+    width: 100px;
+    max-width: 240px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin: auto 10px auto 0;
+    flex-shrink: 0;
+}
+
+.womp-product-container .product-info {
+    padding-left: 15px;
+    margin: auto 0;
+}
+
+.womp-product-container .product-title,
+.womp-product-container .product-qty {
+    margin-bottom: 8px;
+}
+
+.womp-product-container .product-price,
+.womp-product-container .product-qty,
+.womp-product-container .product-subtotal {
+    color: #555;
+}
+.womp-product-container .product-price-label,
+.womp-product-container .product-qty-label,
+.womp-product-container .product-subtotal-label {
+    color: black;
+}
+
+#wm_contentarea .order-detail div.body {
+    padding: 0;
+}
+.womp-products-wrapper {
+    margin: 10px;
+}
+
+#wm_contentarea .order-detail .payment-area {
+    background: #e7eaed;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    max-width: 100%;
+    float: none;
+    margin: 0;
+}
+#wm_contentarea .order-detail .payment-area>div {
+    margin-bottom: 8px;
+    float: none;
+    display: flex;
+    width: 100%;
+}
+#wm_contentarea .order-detail .payment-area>div:last-child {
+    margin-bottom: 0;
+}
+#wm_contentarea .order-detail .payment-area p {
+    font-weight: bold;
+    float: none;
+    display: inline-block;
+    flex-grow: 1;
+    padding: 0;
+    font-size: 14px;
+}
+#wm_contentarea .order-detail .payment-area span {
+    width: 120px;
+    text-align: right;
+    float: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+#wm_contentarea .order-pages div.head h4,
+#wm_contentarea .order-detail div.head {
+    float: none;
+}
+
+/* eCheck modal */
+#wm_contentarea #modify_echeck_details.modal {
+    position: absolute;
+    padding: 0 !important;
+    transform: translateX(-50%);
+    width: 90%;
+    z-index: 15;
+}
+
+#wm_contentarea #modify_echeck_details.modal .modal-content {
+    width: 100% !important;
+    height: 100%;
+    margin: 0 0 0 0 !important;
+}
+
+#wm_contentarea #modify_echeck_details.modal .modal-content .modal-header {
+    padding: 0;
+    height: 65px;
+    float: none;
+    display: block;
+}
+
+#wm_contentarea #modify_echeck_details.modal .modal-content .modal-header img {
+    padding: 23px 0 12px 0;
+    margin: 0 auto;
+    display: block;
+}
+
+#wm_contentarea #modify_echeck_details.modal .modal-content .modal-body {
+    padding: 10px 10px 20px 10px;
+    float: none;
+    height: calc(100% - 140px);
+    max-height: calc(100% - 140px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#wm_contentarea #modify_echeck_details.modal .modal-content .modal-body>div {
+    float: none;
+}
+
+#wm_contentarea #modify_echeck_details.modal .modal-content .modal-body .your-review h2.border {
+    display: block;
+    padding: 11px 0 0 0;
+    line-height: 1.2;
+}
+
+#wm_contentarea #modify_echeck_details.modal .modal-content .modal-body .your-review h2.border:after {
+    width: 100%;
+    margin-top: 8px;
+    left: 0;
+}
+
+#wm_contentarea #modify_echeck_details .secure-processing {
+    max-width: 100%;
+}
+
+#wm_contentarea #modify_echeck_details .new-input {
+    float: none;
+}
+
+#wm_contentarea #modify_echeck_details .overlayer.overlay_active {
+    padding-bottom: 20px;
+    z-index: 14;
+}
+#wm_contentarea #modify_echeck_details .card-detail {
+    width: calc(100% - 30px);
+}
+
+#wm_contentarea #modify_echeck_details #echeck_profiles {
+    margin-top: 0;
+    max-width: 100%;
+}
+#wm_contentarea #modify_echeck_details #linkButton {
+    width: 100%;
+}
+#wm_contentarea #modify_echeck_details .modal-footer {
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+/* Buyback Order Details */
+.view-buyback-order #wm_contentarea .order-pages div.body,
+.view-buyback-order #wm_contentarea .order-pages div.head {
+    float: none;
+}
+.view-buyback-order #wm_contentarea .order-pages div.body {
+    margin-bottom: 10px;
+}
+.view-buyback-order #wm_contentarea .order-pages.thank-you .prepared.detail .method-section {
+    min-height: auto;
+}
+
+/* Individual Order */
+/*.https://qa.providentmetals.com/sales/order/view/?order=596&show=1*/
+#wm_contentarea .order-status div {
+    float: initial;
+    max-width: 100%;
+    margin: 0px !important;
+    height: 220px;
+}
+/*#wm_contentarea .order-status .active {
+    margin-bottom: 40px;
+}*/
+
+#linkButton {
+    margin-top: 20px;
+}
+
+#modify_echeck {
+    margin-top: 5px;
+}
+.order-items .panel-body {
+    overflow: auto;
+}
+
+
+/* ZDT: 2360 - Account Shipping Addresses */
+/* On QA as of 9/6/22 */
+body.customer.address .alert-message > .icon {
+    width: 15px;
+    float: none;
+    display: block;
+    padding: 0;
+    margin-right: 10px;
+}
+body.customer.address .alert-message {
+    flex-flow: row;
+    align-items: baseline;
+}
+/* End ZDT: 2360 */
+

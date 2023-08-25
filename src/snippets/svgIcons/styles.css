@@ -1,0 +1,143 @@
+.wi {
+    display: inline-block; 
+    width: 1.5em;
+    height: 1.5em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: #165084;
+}
+
+.wi.white {
+    fill: #fff;
+}
+
+.wi-examples {
+    font-size: 22px;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.tool-tip {
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    border-radius: 3px;
+    padding: 15px;
+    position: absolute;
+    right: 0;
+    top: -84px;
+    width: 262px;
+    background: #fff;
+    display: none;
+    z-index: 9;
+}
+.tool-tip.active {
+    display: block;
+}
+.fa,.fas{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+.fa-question-circle{
+    vertical-align: middle;
+}
+.fa-envelope {
+    width: 25px;
+}
+
+.cart-payment-page .payment-area div.tool-tip-area .close-mark, .order-pages.thank-you .payment-area div.tool-tip-area .close-mark {
+    color: #cccccc;
+    cursor: pointer;
+    float: right;
+    position: absolute;
+    right: 5px;
+    text-align: right;
+    top: 5px;
+}
+
+/* Adjust width as multiple of height for non-square icons */
+.fa-ok-circled {
+  width: 0.857421875em;
+  color: green;
+}
+.fa-block {
+  width: 0.857421875em;
+  color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+.wi {
+    display: inline-block; 
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+.wi-location-pin, .wi-phone, .wi-user {
+    color: #114e88;
+}
+body.my-account .wi-location-pin, body.my-account .wi-phone, body.my-account .wi-user {
+    color: #6e6e6e;
+}
+body.my-account .current .wi-location-pin, body.my-account .current .wi-phone, body.my-account .current .wi-user {
+    color: #fff;
+}
+
+.fa-user-circle::before,
+.fa-box-alt::before,
+.fa-heart::before,
+.fa-bell::before,
+.fa-book::before,
+.fa-user-cog::before,
+.fa-arrow-circle-up::before,
+.fa-credit-card::before,
+.fa-chevron-down::before,
+.fa-sync::before,
+.fa-arrow-circle-right::before,
+.fa-reply::before,
+.fa-user::before,
+.fa-map-marker::before,
+.fa-check-circle::before,
+.fa-search::before,
+.fa-shopping-cart::before,
+.fa-info-circle::before,
+.fa-shopping-cart::before,
+.fa-phone::before,
+.fa-suitcase::before,
+.fa-tasks::before,
+.fa-star::before,
+.fa-chevron-up::before
+.fa-lock::before {
+    display: none;
+}
+
+#wm_contentarea .fa-question-circle::before {
+    content: url('data:image/svg+xml;charset=UTF-8, <svg aria-hidden="true" data-prefix="fas" data-icon="question-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-question-circle fa-w-16"><path fill="%23000" d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zM262.655 90c-54.497 0-89.255 22.957-116.549 63.758-3.536 5.286-2.353 12.415 2.715 16.258l34.699 26.31c5.205 3.947 12.621 3.008 16.665-2.122 17.864-22.658 30.113-35.797 57.303-35.797 20.429 0 45.698 13.148 45.698 32.958 0 14.976-12.363 22.667-32.534 33.976C247.128 238.528 216 254.941 216 296v4c0 6.627 5.373 12 12 12h56c6.627 0 12-5.373 12-12v-1.333c0-28.462 83.186-29.647 83.186-106.667 0-58.002-60.165-102-116.531-102zM256 338c-25.365 0-46 20.635-46 46 0 25.364 20.635 46 46 46s46-20.636 46-46c0-25.365-20.635-46-46-46z" class=""></path></svg>');
+    width: 16px;
+    height: 16px;
+}
+#wm_contentarea .fa-times::before {
+    content: url('data:image/svg+xml;charset=UTF-8, <svg aria-hidden="true" data-prefix="fas" data-icon="times" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="svg-inline--fa fa-times fa-w-12"><path fill="%23ccc" d="M323.1 441l53.9-53.9c9.4-9.4 9.4-24.5 0-33.9L279.8 256l97.2-97.2c9.4-9.4 9.4-24.5 0-33.9L323.1 71c-9.4-9.4-24.5-9.4-33.9 0L192 168.2 94.8 71c-9.4-9.4-24.5-9.4-33.9 0L7 124.9c-9.4 9.4-9.4 24.5 0 33.9l97.2 97.2L7 353.2c-9.4 9.4-9.4 24.5 0 33.9L60.9 441c9.4 9.4 24.5 9.4 33.9 0l97.2-97.2 97.2 97.2c9.3 9.3 24.5 9.3 33.9 0z" class=""></path></svg>');
+    width: 16px;
+    height: 16px;
+}
+#wm_contentarea .fa-check::before {
+    content: url('data:image/svg+xml;charset=UTF-8, <svg aria-hidden="true" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-check fa-w-12"><path fill="%23F7CE46" d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" class=""></path></svg>');
+    width: 24px;
+    height: 24px;
+    vertical-align: top;
+}
+
+
+
+

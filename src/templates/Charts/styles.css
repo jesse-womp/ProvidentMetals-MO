@@ -1,0 +1,194 @@
+h2, .price-chart-heading h1 {
+    line-height: 1.2;
+}
+.price_chart #oz_display, .price_chart #gr_display, .price_chart #kl_display{
+    white-space: nowrap;
+}
+.tbl_priceChart *{
+    font-size: 13px!important;
+    line-height: 1.2!important;
+}
+#wm_contentarea .tbl_priceChart td,
+#wm_contentarea .tbl_priceChart th{
+    padding: 4px;
+    width: auto;
+}
+
+#wm_contentarea .tbl_priceChart td:last-child,
+#wm_contentarea .tbl_priceChart th:last-child{
+    width: 60px;
+}
+
+#wm_contentarea .price2col {
+    margin-top: 0;
+}
+#wm_contentarea .basic-page-heading h2{
+    padding: 10px 0;
+    line-height: 1.2;
+}
+#wm_contentarea .chart-container {
+    margin-bottom: 15px;
+}
+#wm_contentarea .metal_price_alerts {
+    font-size: 14px;
+}
+@media only screen and (max-width: 320px) {
+    #wm_contentarea .metal_price_alerts {
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+    #wm_contentarea .metal_price_alerts {
+        font-size: 12px;
+    }
+}
+.metal_price_alerts a{
+    display: block;
+}
+[id*="tradingview"]{
+    clear: both;
+}
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#products .tab-cols{
+    width: 48.5%;
+    position: relative!important;
+    margin: 5px 0;
+    height: auto;
+}
+#productMenuBar>div{
+    position: relative;
+}
+#productMenuBar>div span{
+    display: block;
+    line-height: 1.2;
+    top: 50%;
+    font-weight: 600;
+    font-size: 13px;
+    position: relative;
+    transform: translateY(-50%);
+}
+#productMenuBar>div img{
+        position: absolute;
+    top: 100%;
+    width: 30px;
+    left: 50%;
+    margin-left: -15px!important;
+}
+#wm_contentarea .add-to-cart {
+    width: calc(100% - 24px);
+}
+#wm_contentarea .add-to-cart button {
+    max-width: 100%;
+}
+#wm_contentarea .add-to-cart input {
+    margin: 0 0 6px 0;
+    width: 140px;
+    max-width: 100%;
+    clear: both;
+    float: none;
+    height: 40px;
+}
+#wm_contentarea .add-to-cart button {
+    margin: 0;
+    width: 140px;
+    clear: both;
+    float: none;
+}
+#wm_contentarea .tab-cols .status {
+    display: none;
+}
+
+/*main charts page*/
+.chart-block>a{
+    width: 49%;
+    margin: 1% 0;
+    color: #979797;
+}
+.chart-block>p, .chart-block p:empty{
+    display: none;
+}
+.chart-block p{
+    margin: 0;
+}
+.chart-block .chart-links {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+}
+.chart-block .chart-links .chart-list-btn{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    margin: 0;
+}
+#bitcoinChart{
+    padding: 0!important;
+}
+.chart-hero {
+    text-align: center;
+}
+.chart-hero.chart-hero img {
+    margin-left: -50%;
+    object-fit: cover;
+    width: initial;
+    max-width: initial;
+}
+.spot-price-hero.spot-price-hero {
+    margin-top: 25px;
+    top: unset;
+}
+
+/*individual charts pages*/
+#chartlinkblocks>*{
+    width: 32%;
+    margin: 0;
+    height: auto;
+    overflow: hidden;
+}
+#chartlinkblocks.four>*{
+    width: 49%;
+    margin: 1% 0;
+}
+#chartlinkblocks.three>*{
+    padding: 10px 5px 0;
+}
+#chartlinkblocks.three .price2col_rgtIn span{
+    font-size: 16px;
+}
+#chartlinkblocks img{
+    height: 119px;
+    object-fit: contain;
+}
+#chartlinkblocks img[src*="onsale-package.jpg"]{
+    margin: -10px -10px 5px;
+    max-width: calc(100% + 10px);
+}
+
+#wm_contentarea #nfhistpricetable{
+    width: 100%;
+}
+#wm_contentarea ul.flex{
+    padding: 0;
+    margin: 0;
+}
+ul.world-price-links li{
+    width: 32%;
+}
+
+#wm_contentarea #jmb-value-calculator .input,
+#wm_contentarea #jmb-roi-calculator .input{
+    height: auto;
+    font-size: 14px;
+}
+#wm_contentarea #jmb-roi-calculator .input label {
+    display: flex;
+    justify-content: flex-end
+}
+#wm_contentarea #jmb-roi-calculator .input label span{
+    width: auto;
+}

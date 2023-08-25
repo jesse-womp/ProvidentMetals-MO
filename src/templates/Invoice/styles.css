@@ -1,0 +1,328 @@
+#wm_contentarea .mainInner {
+    padding: 0;
+}
+
+#wm_contentarea .woocommerce-error {
+    margin: 0 0 10px 0;
+}
+
+#wm_contentarea .blog-page-heading {
+    float: none;
+}
+
+#wm_contentarea .blog-page-heading h1 {
+    margin: 0 0 10px 0;
+    font-size: 26px;
+    text-align: center;
+}
+
+#wm_contentarea .order-pages div.head {
+    border: 1px solid #ccc;
+    border-bottom: none;
+    padding: 10px;
+    background: #f4f4f4;
+    float: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#wm_contentarea .order-pages div.head h2 {
+    padding: 0;
+    font: 600 16px 'Open Sans',sans-serif;
+}
+
+#wm_contentarea .order-pages div.body,
+#wm_contentarea #invoice_checkout .order-pages div.body {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 0;
+    float: none;
+}
+
+#wm_contentarea .checkout-detail {
+    padding-top: 0;
+}
+
+#wm_contentarea .checkout-block {
+    margin-bottom: 0;
+}
+
+#wm_contentarea .checkout-block>div:first-child>div {
+    max-width: calc(100% - 60px);
+    display: inline-block;
+}
+
+#wm_contentarea .checkout-block>div:first-child>div>span {
+    font-weight: bold;
+    display: inline-block;
+}
+
+#wm_contentarea #new-payment-details>div[class="form-row"]:first-child {
+    margin-top: 15px;
+}
+
+#wm_contentarea ul.shipping,
+#wm_contentarea ul.shipping li {
+    float: none;
+}
+
+#wm_contentarea .addr-detail {
+    margin: 10px 0;
+}
+
+#wm_contentarea .addr-detail ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#wm_contentarea .shipping .card-detail {
+    display: flex;
+    width: calc(100% - 30px);
+    margin-bottom: 10px;
+}
+
+#wm_contentarea .shipping .addr:last-child .card-detail {
+    margin-bottom: 0;
+}
+
+#wm_contentarea .shipping li>* {
+    float: none;
+    flex: 0;
+}
+
+#wm_contentarea .shipping li>*:last-child {
+    padding-bottom: 0;
+}
+
+#wm_contentarea .addr.no-morgin {
+    padding: 10px;
+}
+
+#wm_contentarea .shipping .chk-area {
+    margin: 0;
+    float: right;
+}
+
+#wm_contentarea .shipping .chk-area>* {
+    margin: 0;
+    padding: 0;
+}
+
+#wm_contentarea .card-detail {
+    order: 1;
+}
+
+#wm_contentarea .card-detail img {
+    object-fit: contain;
+    margin: 0 10px 0 0;
+    padding: 0;
+}
+
+#wm_contentarea .card-detail p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+#wm_contentarea .card-detail p span {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+#wm_contentarea #new-card #ccv_block {
+    display: flex;
+    width: 50%;
+    padding-bottom: 0;
+    position: static;
+}
+
+#wm_contentarea #ccv_block>* {
+    float: none;
+}
+
+#wm_contentarea #ccv_block input {
+    height: 50px;
+}
+
+#wm_contentarea #ccv_block .new-input {
+    width: 100%;
+    position: relative;
+    clear: both;
+    padding-bottom: 0;
+}
+
+#wm_contentarea #ccv_block .new-input input {
+    padding: 5px 15px;
+}
+
+#wm_contentarea #ccv_block .tool-area {
+    margin: 16px 0 0 0;
+    position: static;
+}
+
+#wm_contentarea #ccv_block .tool-area i {
+    margin: 0;
+    padding: 0;
+}
+
+#wm_contentarea #ccv_block .tool-tip::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 92px;
+    margin-left: 0;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid white;
+}
+
+#wm_contentarea .tool-tip:after {
+    display: none;
+}
+
+#wm_contentarea .tool-tip .cart-area.first {
+    padding-bottom: 0;
+}
+
+#wm_contentarea .tool-tip .cart-area .card-image {
+    width: 70px;
+    flex-shrink: 0;
+    margin-right: 5px;
+}
+
+#wm_contentarea .tool-tip .cart-area .card-image img {
+    margin: 0;
+}
+
+#wm_contentarea .tool-tip .cart-area .card-section {
+    padding-left: 10px;
+    flex-grow: 1;
+    width: auto;
+    display: block;
+    max-width: 60%;
+}
+
+#wm_contentarea .tool-tip .cart-area .card-section p {
+    padding: 0;
+    margin: auto 0;
+    display: block;
+}
+
+#wm_contentarea #new-card {
+    padding-top: 10px;
+}
+
+#wm_contentarea #new-card>* {
+    float: none !important;
+    padding-bottom: 10px;
+    padding-top: 0;
+}
+
+#wm_contentarea #new-card input {
+    margin: 0;
+}
+
+#wm_contentarea #new-card .card-name,
+#wm_contentarea #new-card .card-number {
+    width: 100%;
+    margin: 0;
+}
+
+#wm_contentarea #new-card .payment-period {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#wm_contentarea #new-card .payment-period * {
+    width: 49%;
+    margin: 0;
+}
+
+#wm_contentarea #new-card #ccv_block .tool-tip {
+    top: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 3px;
+    margin: 22px 0 10px 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+#wm_contentarea #new-card #ccv_block .tool-tip .cart-area p {
+    font-size: 12px !important;
+    color: #777 !important;
+}
+
+#wm_contentarea #new-card #ccv_block .tool-tip::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    margin-left: -23px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid white;
+}
+
+#wm_contentarea #invoice_checkout #new-card {
+    padding:  0;
+}
+
+#wm_contentarea #invoice_checkout .addr.no-morgin {
+    border: none;
+}
+
+#wm_contentarea .new-input {
+    margin-right: 5px;
+}
+
+#wm_contentarea .new-input input,
+#wm_contentarea .payment-period select {
+    box-shadow: none;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#wm_contentarea .checkout-block::before,
+#wm_contentarea .checkout-block::after {
+    display: none;
+}
+
+#wm_contentarea .butn_checkout_cont {
+    clear: both;
+}
+
+#wm_contentarea .butn_checkout_cont>p {
+    padding-bottom: 0;
+}
+
+#wm_contentarea .main-btn {
+    margin: 0 auto;
+    text-align: center;
+    display: inherit;
+}
+
+/* Invoice Thank You */
+
+#wm_contentarea .status {
+    margin-top: 0;
+}
+
+#wm_contentarea .order-pages div.head h4 {
+    float: none;
+    font: 600 16px 'Open Sans',sans-serif;
+}
+
+#wm_contentarea .print {
+    margin: 0 0 10px 0;
+    display: inline-block;
+}

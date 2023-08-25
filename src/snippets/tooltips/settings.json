@@ -1,0 +1,16 @@
+{
+  "Id": 9178,
+  "mSiteId": 7825,
+  "lastModified": "2022-12-08T02:03:46.323",
+  "signature": "tooltips",
+  "desc": null,
+  "testURL": "http://qa.providentmetals.com",
+  "isImportable": false,
+  "isDeleted": false,
+  "DBStrForFutureUse1": null,
+  "DBStrForFutureUse2": null,
+  "DBStrForFutureUse3": null,
+  "DBBoolFutureUse1": null,
+  "DBBoolFutureUse2": null,
+  "DBBoolFutureUse3": null
+}

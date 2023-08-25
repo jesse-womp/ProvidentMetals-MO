@@ -1,0 +1,122 @@
+#wm_contentarea .mainInner{
+    padding: 0;
+}
+
+#wm_contentarea .basic-page-heading h2 {
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+
+#wm_contentarea #top_questions {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#wm_contentarea #top_questions>* {
+    display: block;
+    text-align: left;
+}
+
+#wm_contentarea #top_questions>a {
+    margin-top: 10px;
+}
+
+#wm_contentarea #contact-form-area {
+    width: 100%;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+#wm_contentarea .contact-form-cont {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    height: auto;
+}
+#wm_contentarea .contact-us .col-sm-5 {
+    margin-top: auto;
+}
+#wm_contentarea .contact-form-cont p {
+    margin-bottom: 10px;
+}
+
+#wm_contentarea .sidebar {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    float: none;
+}
+
+#wm_contentarea .wpcf7-form>* {
+    float: none;
+}
+
+#wm_contentarea .wpcf7-form .new-input {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+#wm_contentarea .new-input input {
+    margin-bottom: 0;
+}
+
+#wm_contentarea .wpcf7-form .contact-method {
+    margin-bottom: 10px;
+}
+
+#wm_contentarea .wpcf7-form .contact-method-text {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#wm_contentarea .wpcf7-form .contact-method>label {
+    display: inline-block;
+}
+
+#wm_contentarea .wpcf7-form input[type="radio"] {
+    margin-top: -2px;
+}
+
+#wm_contentarea .wpcf7-form h3 {
+    margin: 10px 0;
+    padding: 0;
+}
+
+#wm_contentarea .wpcf7-captchac {
+    margin: 0 0 10px 0;
+    display: block;
+}
+
+#wm_contentarea .new-text-message {
+    padding: 0;
+    font-size: 16px;
+}
+
+#wm_contentarea .new-text-message textarea {
+    padding: 10px;
+}
+
+#wm_contentarea h3 {
+    margin: 15px 0 10px 0;
+}
+
+#wm_contentarea .wpcf7-submit {
+    margin: 0 auto;
+    display: block;
+}
+
+#wm_contentarea .ajax-loader {
+    display: none;
+}
+
+#wm_contentarea .sidebar .contact-widget,
+#wm_contentarea .sidebar .widget {
+    margin: 0 0 10px 0;
+}
+.contact-us .social-links .icons a {
+    min-width: 46px;
+}
+i.fa.fa-rss-square.fa-lg {
+    min-width: 52.5px;
+}

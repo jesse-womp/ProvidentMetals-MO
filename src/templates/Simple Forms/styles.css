@@ -1,0 +1,227 @@
+
+#wm_contentarea .mainInner {
+    padding: 0;
+}
+
+#wm_contentarea .one-column-blog {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#wm_contentarea .one-column-blog p {
+    padding: 0;
+}
+
+#wm_contentarea .blog-page-heading h2,
+#wm_contentarea .basic-page-heading h2 {
+    padding: 0;
+    font-size: 28px;
+}
+
+// Hidden form for nonce on non-register pages
+#wm_contentarea>#jm-register-form {
+    display: none;
+}
+
+// Real form for register
+#wm_contentarea #jm-register-form {
+    padding: 20px 0;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#wm_contentarea #jm-register-form * {
+    float: none;
+}
+
+#wm_contentarea #jm-register-form .terms {
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+#orderlookup,
+#jm-login-form,
+#jm-forgot-password-form {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#login {
+    margin-bottom: 0;
+}
+
+#login button,
+#login input {
+    height: 50px;
+    padding: 0 10px;
+    width: 100%;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+#wm_contentarea .row,
+#wm_contentarea .button-section,
+#wm_contentarea .new-input,
+#wm_contentarea .order-status-check-btn {
+    margin: 0 auto 10px auto;
+    width: 90%;
+}
+
+#wm_contentarea .new-input {
+    padding: 0;
+}
+
+#wm_contentarea .floating-label {
+    width: auto;
+}
+
+/* order status pages */
+#wm_contentarea .order-pages.thank-you .status{
+    margin-top: 0;
+}
+#wm_contentarea .order-pages div.body,
+#wm_contentarea .order-pages div.head{
+    padding: 5px;
+}
+
+#wm_contentarea .summaryp{
+   font-size: 14px;
+   color: #aaa;
+    padding: 0 5px 3px;
+}
+#wm_contentarea  .summaryp.hide{
+    display: none;
+}
+#wm_contentarea .order-steps.flow .steps{
+    margin: 10px 0;
+}
+#wm_contentarea .order-steps .steps .step span.info{
+    font-size: 9px;
+}
+#wm_contentarea .order-steps .steps .step:after{
+    top: 10px;
+}
+#wm_contentarea .order-steps .steps [class*="-icon"]{
+    width: 25px;
+    height: 25px;
+}
+#wm_contentarea .order-pages.thank-you .prepared.detail{
+    padding: 10px;
+    margin-top: 10px;
+}
+#wm_contentarea .order-pages.thank-you .body .order-total{
+    margin-top: 10px;
+}
+#wm_contentarea .order-pages.thank-you .order-total [class*="-section"]{
+    padding: 10px;
+    min-height: 0;
+}
+
+.order-status .account-address{
+    padding: 10px 0;
+}
+.order-status .account-address>div{
+    width: auto;
+    float: none;
+}
+
+// Alerts
+
+body.alerts .main-cont {
+    min-height: auto;
+}
+
+// Bullion investing guide
+
+.bullion-investing-guide #bgtbijaImg {
+    float: none;
+    display: block;
+    margin: 10px auto;
+}
+
+.bullion-investing-guide #optInFormDiv {
+    width: 100%;
+    margin: 10px 0 20px 0;
+}
+
+.bullion-investing-guide #optinform {
+    width: 100%;
+}
+
+.bullion-investing-guide #wm_contentarea .new-input {
+    width: 100%;
+    margin: 0;
+}
+
+.bullion-investing-guide #submitOptIn {
+    margin: 0;
+}
+
+.bullion-investing-guide #listHeaderOptIn {
+    margin: 0;
+}
+
+.bullion-investing-guide #optInList {
+    margin: 10px 20px;
+}
+
+.bullion-investing-guide #optInList li {
+    line-height: 1.3em;
+    margin-bottom: 10px
+}
+
+.bullion-investing-guide #listHeaderOptIn2 {
+    margin: 0;
+}
+
+/* Create log-in create account */
+    #createaccountmodal {
+        width: 100%;
+        right: 0;
+        left: 0;
+    }
+    #createaccountmodal.createaccount.modal .modal-content {
+        width: 100%;
+        margin: 0;
+    }
+    #createaccountmodal input {
+        width: 100%;
+    }
+    #createaccountmodal.createaccount.modal .modal-content .new-input.half.even.your-name {
+        width: 100%;
+        float: none;
+    }
+    #createaccountmodal.createaccount.modal .modal-content .modal-body .new-input {
+        width: 100%;
+        margin: 10px 0;
+    }
+    #createaccountmodal.createaccount.modal .modal-content .modal-body form > div:nth-child(even) {
+        width: 100%!important;
+    }
+    #createaccountmodal input#pm_cust_first {
+        margin-bottom: 20px;
+    }
+/* Create log-in create account end */
+
+
+
+/* 
+    https://qa.providentmetals.com/register/ 
+    https://www2.providentmetals.com/where-is-my-order/
+*/
+#wm_contentarea .createaccount .register-page-form .new-input,
+#wm_contentarea #myorder .form-group {
+    width: 100%;
+}
+
+/* Fixes terms checkbox being inline with text */
+.register-page-form .terms {
+    display: flex;
+}
+.agree_to_terms_new {
+    margin: 0 5px !important;
+}
+

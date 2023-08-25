@@ -1,0 +1,12 @@
+/* /cookie-policy */
+
+.cookie-policy #wm_contentarea .one-column-blog {
+    border: none;
+    padding: 10px;
+}
+#wm_contentarea .CookieDeclarationType {
+    overflow-x: scroll;
+}
+#wm_contentarea .CookieDeclarationTable {
+    min-width: 1000px;
+}

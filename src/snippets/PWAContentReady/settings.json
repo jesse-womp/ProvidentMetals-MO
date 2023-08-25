@@ -1,0 +1,16 @@
+{
+  "Id": 9177,
+  "mSiteId": 7825,
+  "lastModified": "2019-10-17T01:08:09.82",
+  "signature": "PWAContentReady",
+  "desc": "Must be last snippet in HTML template",
+  "testURL": "http://qa.providentmetals.com",
+  "isImportable": false,
+  "isDeleted": false,
+  "DBStrForFutureUse1": null,
+  "DBStrForFutureUse2": null,
+  "DBStrForFutureUse3": null,
+  "DBBoolFutureUse1": null,
+  "DBBoolFutureUse2": null,
+  "DBBoolFutureUse3": null
+}

@@ -1,0 +1,137 @@
+.sliderwrapp{
+    position: relative;
+}
+
+.arrowNav.prev, .arrowNav.next {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 60px;
+    background: rgba(255,255,255,0.75);
+    color: #000;
+    line-height: 30px;
+    box-sizing: border-box;
+    height: 34px;
+    width: 34px;
+    border-style: none;
+    border-radius: 2px;
+    background-color: rgba(42,131,84,.5);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    z-index: 50;
+    pointer-events: all;
+}
+.arrowNav.next {
+    right: 0;
+}
+.arrowNav.next:after {
+    font-weight: bold;
+    color:#fff;
+    content: "\232a"; /* right arrow */
+}
+.arrowNav.prev:after {
+    font-weight: bold;
+    color:#fff;
+    content: "\2329"; /* left arrow */
+}
+#carousel, #carousel ul, #carousel li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+#carousel {
+    background: transparent;
+    overflow: hidden;
+    margin: 0 0 35px 0;
+    position: relative;
+    z-index: 10;
+    padding: 0 20px;
+}
+#carousel ul {
+    overflow: visible;
+    position: relative;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 16px;
+}
+#carousel ul.animate {
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    margin: 0px auto;
+}
+#carousel li.pane {
+    background-color: #EEEEEE;
+    text-align: center;
+    min-width: calc(50vw - 38px);
+    width: calc(50% - 38px);
+    vertical-align: text-top;
+    margin: 5px 14px 0 8px;
+    margin-inline-start: 3px;
+    display: inline-block;
+    font-size: 16px;
+    white-space: normal;
+}
+.wish-item-wrap{
+    text-align: center;
+    padding: 14px;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: #EEEEEE;
+
+}
+.wish_item-name {
+    color: #125ea7;
+    cursor: pointer;
+    height: 50px;
+    font-weight: 600;
+    max-height: 62px;
+    overflow: hidden;
+    margin: 8px 0;
+}
+.wish-item .wish_item-price {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.wish-item .btn-addwishitem {
+    width: 90%;
+    display: block;
+    margin: 10px auto;
+    height: 32px;
+    line-height: 28px;
+}
+#panes img {
+    max-width: 100%;
+    max-height: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.pane li {
+    list-style: none;
+}
+
+/*for example*/
+.event_block{
+	width: 100%;
+	display: inline-block;
+	height: 0;
+	margin: 0;
+	padding-top: 50%;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+.event_block .image{
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	-webkit-transition: all .5s; /* Safari */
+    transition: all .5s;
+}

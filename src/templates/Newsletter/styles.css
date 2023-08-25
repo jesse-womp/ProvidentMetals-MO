@@ -1,0 +1,21 @@
+#wm_body {
+    width: 100vw;
+}
+#wm_body .container {
+    width: auto;
+}
+#wm_body .newsletter-hero .email-subscription {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+#wm_body #subscribe_newsletter_email, #wm_body #subscribe_button {
+    width: auto;
+}
+.newsletter-hero {
+    text-align: center;
+}
+.social .blog {
+    padding-left: 0;
+    padding-right: 30px;
+}

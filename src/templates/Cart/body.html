@@ -1,0 +1,13 @@
+<div id="wm_body">
+    <div id="wm_contentarea">
+       {.body-wrapper,.main,.cart-payment-page,.cart-page,script}
+       {if($('.wish-item').length > 2)}
+            {.wishlist-area}
+            {ultraSliderAfter(.wish-item)}
+        {endif}
+    </div>
+</div>
+{svgIcons}
+{site_changes}
+{copyBodyAttributes}
+{PWAContentReady}

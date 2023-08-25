@@ -1,0 +1,198 @@
+/* Remove Breadcrumbs */
+.breadcrumb-area {
+    display: none;
+}
+/* Remove QTY from search */
+input.qty {
+    display: none;
+}
+
+/* Move up product badge */
+.product-img .product-badge {
+    bottom: 25px;
+}
+
+/* Hide Desktop cart summary */
+#wm_contentarea .cart-popup-container.active {
+    display: none;
+}
+#wm_contentarea .overlayer.overlay_active {
+    display: none;
+}
+
+/* Only display GRID View in search */
+.toolbar.toolbar-products .modes {
+    display: none;
+}
+.toolbar.toolbar-products .toolbar-sorter.sorter {
+    float: none;
+    margin-top: 0;
+}
+#catalog-listing .toolbar.toolbar-products {
+    margin-top: 0;
+    display: flex;
+    float: none;
+    justify-content: flex-end;
+    padding: 0 10px;
+}
+
+/* Search Images being streched */
+.searchspring-row .tab-content .tab > .tab-cols img {
+    height: auto;
+}
+
+/* Added to make the search results centered example = https://qa.providentmetals.com/search/?q=silver*/
+#searchspring-sidebar {
+    display: none!important;
+}
+#searchspring-content.product-category .tab.active > .tab-cols {
+    width: auto;
+}
+
+/* Grid View Styling / AL Style requests */
+ul#tab1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+ul#tab1 li {
+    width: 50%!important;
+    min-width: auto;
+}
+#searchspring-content {
+    padding: 0!important;
+}
+
+/*hack to make search results same height*/
+
+#wm_contentarea .grid .product{
+    font-size: 0;
+    line-height: 0;
+    padding-bottom: 120px;
+    position: relative!important;
+}
+#wm_contentarea .grid .product>*{
+    font-size: 15px;
+    line-height: 18px;
+    display: block;
+}
+#wm_contentarea .grid .product .price::before{
+    content: 'From: ';
+    font-weight: normal;
+    margin-right: 5px;
+}
+#wm_contentarea .grid .product .price,
+#wm_contentarea .grid .product .ship,
+#wm_contentarea .grid .product .buttons{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    text-align: center;
+    width: auto;
+}
+
+#wm_contentarea .grid .product .price{
+    bottom: 85px;
+}
+#wm_contentarea .grid .product .buttons{
+    bottom: 10px;
+}
+#wm_contentarea .grid .product .ship {
+    bottom: 35px;
+}
+#wm_contentarea .grid .product .ship.search-oos {
+    line-height: 30px;
+}
+#wm_contentarea .grid .product .ship .fa-check-circle+b{
+    font-size: 0;
+}
+#wm_contentarea .grid .product .ship .fa-check-circle+b::before{
+    content: 'In Stock';
+    font-size: 15px;
+    padding-left: 3px;
+}
+
+.sidebar,
+#wm_contentarea #searchspring #searchspring-main .breadcrumbs,
+#wm_contentarea #searchspring #searchspring-main #searchspring-options p{
+    display: none;
+}
+
+#wm_contentarea form[role="search"] {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+#wm_contentarea form[role="search"] .input-text {
+    flex-grow: 1;
+    background: none;
+    border: 1px solid #ccc;
+    margin: 0;
+    height: 33px;
+    width: auto;
+    float: none;
+    box-sizing: border-box;
+}
+
+#wm_contentarea .mainproductIn span.title,
+#wm_contentarea .mainproductIn span a, 
+#wm_contentarea .cat-product span a{
+    height: auto;
+}
+#wm_contentarea #searchspring #searchspring-main #searchspring-options{
+    height: auto;
+    padding: 0;
+    margin: 0 0 10px;
+}
+#wm_contentarea #searchspring #searchspring-main h1{
+    float: none;
+    font-size: 13px;
+    text-align: center;
+    margin: 8px 20px;
+}
+#wm_contentarea #searchspring #searchspring-main .sort-by{
+    font-size: 13px;
+}
+#wm_contentarea #searchspring #searchspring-main .pagination{
+    margin: 0;
+}
+#wm_contentarea .mainInner{
+    padding: 0;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    clear: both;
+}
+#wm_contentarea .cat-product{
+    width: 49%;
+    margin: 5px 0;
+    height: auto;
+    padding: 0 5px 10px 5px;
+}
+#wm_contentarea .thumbnail img{
+    max-width: 100%;
+    object-fit: contain;
+    height: auto;
+    width: auto;
+    display: block;
+    margin: 10px auto 0;
+}
+#wm_contentarea .butn_addcart2,
+#wm_contentarea .butn_more{
+    width: 100%;
+    padding: 8px;
+    display: block;
+    margin: 0;
+}
+#wm_contentarea .ship{
+    min-width: 0;  
+    line-height: 1.2;
+}
+.search-product-ribbon.ribbon {
+    position: absolute;
+    right: -5px;
+    left: auto;
+    top: -5px;
+}

@@ -1,0 +1,2 @@
+svgIcons : function(){
+}

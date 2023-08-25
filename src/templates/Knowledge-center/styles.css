@@ -1,0 +1,6 @@
+#wm_body {
+    width: 100vw;
+}
+#wm_body .container {
+    width: auto;
+}
