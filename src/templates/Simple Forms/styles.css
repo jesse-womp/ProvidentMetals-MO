@@ -19,12 +19,12 @@
     font-size: 28px;
 }
 
-// Hidden form for nonce on non-register pages
+/* Hidden form for nonce on non-register pages */
 #wm_contentarea>#jm-register-form {
     display: none;
 }
 
-// Real form for register
+/* Real form for register */
 #wm_contentarea #jm-register-form {
     padding: 20px 0;
     background-color: #f4f4f4;
@@ -128,13 +128,13 @@
     float: none;
 }
 
-// Alerts
+/* Alerts */
 
 body.alerts .main-cont {
     min-height: auto;
 }
 
-// Bullion investing guide
+/* Bullion investing guide */
 
 .bullion-investing-guide #bgtbijaImg {
     float: none;
