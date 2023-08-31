@@ -303,6 +303,9 @@ table.data-table.table.table-striped.table-condensed.product_tbl.blocked {
     top: 10px;
     transform: rotate(180deg);
 }
-
-.fa-chevron-up::before,
-.fa-sync::before,
+.new-input.payment-selector i svg {
+    margin-top: -3px;
+    color: #ffffff;
+    top: 0;
+    transform: rotate(180deg);
+}

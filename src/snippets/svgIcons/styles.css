@@ -116,7 +116,7 @@ body.my-account .current .wi-location-pin, body.my-account .current .wi-phone, b
 .fa-suitcase::before,
 .fa-tasks::before,
 .fa-star::before,
-.fa-chevron-up::before
+.fa-chevron-up::before,
 .fa-lock::before {
     display: none;
 }
